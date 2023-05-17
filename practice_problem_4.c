@@ -2,10 +2,10 @@
 void change_it(int arr[], int count)
 {
     arr[count - 1] = 100;
-    for (int i = 0; i < count; i++)
-    {
-        printf("%d ", arr[i]);
-    }
+    // for (int i = 0; i < count; i++)
+    // {
+    //     printf("%d ", arr[i]);
+    // }
 }
 int main()
 {
@@ -17,5 +17,9 @@ int main()
         scanf("%d", &arr[i]);
     }
     change_it(arr, count);
+    for (int i = 0; i < count; i++)
+    {
+        printf("%d ", arr[i]);
+    }
     return 0;
 }
