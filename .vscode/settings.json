@@ -1,0 +1,6 @@
+{
+    "editor.suggest.showSnippets": true,
+    "files.associations": {
+        "stdio.h": "c"
+    }
+}
